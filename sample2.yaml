@@ -51,10 +51,7 @@ paths:
       responses:
         "405":
           description: "Invalid input"
-      security:
-      - petstore_auth:
-        - "write:pets"
-        - "read:pets"
+     
     put:
       tags:
       - "pet"
